@@ -14,4 +14,27 @@ class HelloShell extends Shell
     {
         $this->out('Hey there ' . $name);
     }
+
+    /**
+     * Display help for this console.
+     *
+     * @return HelloOptionParser
+     */
+    public function getOptionParser()
+    {
+        $parser = parent::getOptionParser();
+        $parser->description(
+            'This is a simple hello world shell.
+
+            ./bin/cake hello
+            : \'Hello world.\'
+
+            or
+
+            ./bin/cake heyThere gavin
+            : \'Hey there gavin\'
+            '
+        );
+        return $parser;
+    }
 }
