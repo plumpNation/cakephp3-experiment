@@ -1,7 +1,7 @@
 {
-    "name": "cakephp/app",
-    "description": "CakePHP skeleton app",
-    "homepage": "http://cakephp.org",
+    "name": "Plumpnation",
+    "description": "A cakephp test",
+    "homepage": "https://shoopmadoop.no",
     "type": "project",
     "license": "MIT",
     "require": {
@@ -23,18 +23,18 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src"
+            "Plumpnation\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "App\\Test\\": "tests",
+            "Plumpnation\\Test\\": "tests",
             "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
         }
     },
     "scripts": {
-        "post-install-cmd": "App\\Console\\Installer::postInstall",
-        "post-create-project-cmd": "App\\Console\\Installer::postInstall",
+        "post-install-cmd": "Plumpnation\\Console\\Installer::postInstall",
+        "post-create-project-cmd": "Plumpnation\\Console\\Installer::postInstall",
         "post-autoload-dump": "Cake\\Composer\\Installer\\PluginInstaller::postAutoloadDump",
         "check": [
             "@test",

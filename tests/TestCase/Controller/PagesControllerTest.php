@@ -12,9 +12,9 @@
  * @since         1.2.0
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
-namespace App\Test\TestCase\Controller;
+namespace Plumpnation\Test\TestCase\Controller;
 
-use App\Controller\PagesController;
+use Plumpnation\Controller\PagesController;
 use Cake\Core\App;
 use Cake\Core\Configure;
 use Cake\Network\Request;

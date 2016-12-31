@@ -1,5 +1,5 @@
 <?php
-namespace App\Shell;
+namespace Plumpnation\Shell;
 
 use Cake\Console\Shell;
 
